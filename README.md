@@ -1,20 +1,54 @@
-[bradflaugher.com](https://bradflaugher.com)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <img src="assets/header-light.svg" width="100%" alt="Brad Flaugher. Small models on the device. Software for small machines.">
+  </picture>
+</p>
 
-## On device
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+    <img src="assets/stats-light.svg" width="100%" alt="98.8% routing accuracy: divid3, 582 held-out queries. 11.8M parameters: post-training, in the browser. 1.7B parameters: genaro, on the phone. 0 servers: every model runs on the device.">
+  </picture>
+</p>
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/section-on-device-dark.svg">
+    <img src="assets/section-on-device-light.svg" width="100%" alt="01 On device">
+  </picture>
+</p>
 
 <p align="center">
   <a href="https://divid3.com">
-    <img src="https://raw.githubusercontent.com/bradflaugher/divid3/main/og-image.png" width="100%" alt="divid3. Private search routing, on device.">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bradflaugher/divid3/main/docs/routing-light.gif">
+      <img src="https://raw.githubusercontent.com/bradflaugher/divid3/main/docs/routing-dark.gif" width="100%" alt="divid3 routing live: each query is embedded in the browser and scored against every destination. ramen near me goes to Maps, why is the sky blue to AI answers, used thinkpad x230 to Shopping. The Destinations panel picks which site each kind of search opens.">
+    </picture>
   </a>
   <br>
   <a href="https://github.com/bradflaugher/divid3"><b>divid3</b></a>
   embeds the query in the browser and picks the search engine.
   <a href="https://divid3.com">divid3.com</a>
+  <br>
+  <sub><code>all-MiniLM-L6-v2</code> · 22 MB · WASM · no server</sub>
+</p>
+
+<p align="center">
+  <a href="https://post-training.win">
+    <img src="https://raw.githubusercontent.com/bradflaugher/post-training/main/docs/gameplay.gif" width="100%" alt="post-training gameplay: pick four words and amputate. A near miss flashes ONE TOKEN OFF. Each solved group reveals the masked sentence the model was probed with, and its softmax probability and logit for each word.">
+  </a>
+  <br>
+  <a href="https://github.com/bradflaugher/post-training"><b>post-training</b></a>
+  is a word game run by an 11.8M model in the browser.
+  <a href="https://post-training.win">post-training.win</a>
+  <br>
+  <sub><code>albert-base-v2</code> · fp16 ONNX · 22 MB · WASM · no server</sub>
 </p>
 
 <p align="center">
   <a href="https://github.com/bradflaugher/PokerSI">
-    <img src="https://raw.githubusercontent.com/bradflaugher/PokerSI/main/docs/screenshots/table-holdem.png" width="280" alt="Texas Hold'em. The other seats are a model running on the phone.">
+    <img src="https://raw.githubusercontent.com/bradflaugher/PokerSI/main/docs/screenshots/table-holdem.png" width="300" alt="Texas Hold'em. The other seats are a model running on the phone.">
   </a>
   <br>
   <a href="https://github.com/bradflaugher/PokerSI"><b>PokerSI</b></a>
@@ -27,17 +61,12 @@
   llama.cpp, on the device.
 </p>
 
-<p align="center">
-  <a href="https://post-training.win">
-    <img src="https://raw.githubusercontent.com/bradflaugher/post-training/main/og-image.png" width="100%" alt="post-training. A word puzzle run by a small model in the browser.">
-  </a>
-  <br>
-  <a href="https://github.com/bradflaugher/post-training"><b>post-training</b></a>
-  is a word game run by an 11.8M model in the browser.
-  <a href="https://post-training.win">post-training.win</a>
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/section-game-boy-dark.svg">
+    <img src="assets/section-game-boy-light.svg" width="100%" alt="02 Game Boy">
+  </picture>
 </p>
-
-## Game Boy
 
 <table>
   <tr>
@@ -74,36 +103,59 @@
   </tr>
 </table>
 
-## Android
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/section-android-dark.svg">
+    <img src="assets/section-android-light.svg" width="100%" alt="03 Android">
+  </picture>
+</p>
 
 <p align="center">
   <a href="https://github.com/bradflaugher/bf-12c">
-    <img src="https://raw.githubusercontent.com/bradflaugher/bf-12c/main/docs/screenshots/landscape.png" width="100%" alt="bf-12c">
+    <img src="assets/android-bf-12c.webp" width="100%" alt="bf-12c: an RPN financial calculator. TVM in five keys, the full 12C keyboard in landscape, a four-level stack.">
   </a>
   <br>
   <a href="https://github.com/bradflaugher/bf-12c"><b>bf-12c</b></a>
+  ·
+  <a href="https://play.google.com/store/apps/details?id=com.bradflaugher.bf12c">Google Play</a>
 </p>
 
-<table>
-  <tr>
-    <td align="center" width="62%">
-      <a href="https://github.com/bradflaugher/CozyGrams">
-        <img src="https://raw.githubusercontent.com/bradflaugher/CozyGrams/main/docs/screenshots/gameplay.webp" width="100%" alt="CozyGrams">
-      </a>
-      <br>
-      <a href="https://github.com/bradflaugher/CozyGrams"><b>CozyGrams</b></a>
-    </td>
-    <td align="center" width="38%">
-      <a href="https://github.com/bradflaugher/bout-that-action">
-        <img src="https://raw.githubusercontent.com/bradflaugher/bout-that-action/main/docs/screenshots/rooftop.png" width="180" alt="'Bout That Action">
-      </a>
-      <br>
-      <a href="https://github.com/bradflaugher/bout-that-action"><b>'Bout That Action</b></a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/bradflaugher/CozyGrams">
+    <img src="assets/android-cozygrams.webp" width="100%" alt="CozyGrams: nonograms for Android TV. Hand a friend a controller and solve together; every finished picture goes in the book.">
+  </a>
+  <br>
+  <a href="https://github.com/bradflaugher/CozyGrams"><b>CozyGrams</b></a>
+  ·
+  <a href="https://play.google.com/store/apps/details?id=com.cozygrams.tv">Google Play</a>
+</p>
 
-## Book
+<p align="center">
+  <a href="https://github.com/bradflaugher/bout-that-action">
+    <img src="assets/android-bout-that-action.webp" width="100%" alt="'Bout That Action: drop in from the roof and take the tower down floor by floor. Sneak up, hide in a box, learn it on the roof, all the way to hell.">
+  </a>
+  <br>
+  <a href="https://github.com/bradflaugher/bout-that-action"><b>'Bout That Action</b></a>
+  ·
+  <a href="https://play.google.com/store/apps/details?id=com.bradflaugher.aboutthataction">Google Play</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/bradflaugher/blauncher">
+    <img src="assets/android-blauncher.webp" width="100%" alt="blauncher: a minimal Android launcher. The date, one search bar for apps and the web, and your apps by category.">
+  </a>
+  <br>
+  <a href="https://github.com/bradflaugher/blauncher"><b>blauncher</b></a>
+  ·
+  <a href="https://play.google.com/store/apps/details?id=com.bradflaugher.blauncher">Google Play</a>
+</p>
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/section-book-dark.svg">
+    <img src="assets/section-book-light.svg" width="100%" alt="04 Book">
+  </picture>
+</p>
 
 <p align="center">
   <a href="https://aiharmony.info">
