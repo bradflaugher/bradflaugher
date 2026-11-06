@@ -1,7 +1,6 @@
-Some of my favorite projects below... common themes are
-1. Projects that leverage small on-device LLMs and Machine Learning models
-2. Infinitely playable games with procedurally generated levels
-3. Privacy respecting projects that collect 0 data.
+<p align="center">
+  I build small models that run on your device, games with endless procedurally generated levels, and software that collects zero data.
+</p>
 
 ## On device
 
