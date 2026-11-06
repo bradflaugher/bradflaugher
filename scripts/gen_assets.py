@@ -112,34 +112,6 @@ def header(t):
     return svg(W, H, "Brad Flaugher. Small models on the device. Software for small machines.", body)
 
 
-STATS = [
-    ("98.8%", "ROUTING ACCURACY", "divid3, 582 held-out queries"),
-    ("11.8M", "PARAMETERS", "post-training, in the browser"),
-    ("1.7B", "PARAMETERS", "genaro, on the phone"),
-    ("0", "SERVERS", "every model runs on the device"),
-]
-
-
-def stats(t):
-    W, H = 1200, 180
-    cw = W / len(STATS)
-    parts = [f'<rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="14" fill="{t["card"]}" stroke="{t["line"]}"/>']
-    for i, (num, label, sub) in enumerate(STATS):
-        x = i * cw
-        if i:
-            parts.append(f'<line x1="{x}" y1="28" x2="{x}" y2="{H-28}" stroke="{t["line"]}"/>')
-        d0 = i * 0.12
-        g = (f'<g opacity="1"><animate attributeName="opacity" values="0;0;1;1" '
-             f'keyTimes="0;{d0/1.6:.3f};{(d0+0.5)/1.6:.3f};1" dur="1.6s" fill="freeze"/>')
-        g += f'<rect x="{x+36}" y="34" width="18" height="3" fill="{t["accent"]}"/>'
-        g += P(text_path(num, "display-semi", 58, x + 34, 106, -0.02), t['fg'])
-        g += P(text_path(label, "mono-bold", 12.5, x + 36, 134, 0.1), t['fg'])
-        g += P(text_path(sub, "mono", 12.5, x + 36, 155, 0), t['muted'])
-        parts.append(g + "</g>")
-    alt = ". ".join(f"{n} {l.lower()}: {s}" for n, l, s in STATS)
-    return svg(W, H, alt, "".join(parts))
-
-
 SECTIONS = ["ON DEVICE", "GAME BOY", "ANDROID", "BOOK"]
 
 
@@ -159,7 +131,6 @@ def main():
     OUT.mkdir(exist_ok=True)
     for theme, t in THEMES.items():
         (OUT / f"header-{theme}.svg").write_text(header(t))
-        (OUT / f"stats-{theme}.svg").write_text(stats(t))
         for i, s in enumerate(SECTIONS, 1):
             slug = s.lower().replace(" ", "-")
             (OUT / f"section-{slug}-{theme}.svg").write_text(section(t, i, s))

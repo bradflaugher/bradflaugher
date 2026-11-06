@@ -5,13 +5,6 @@
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-    <img src="assets/stats-light.svg" width="100%" alt="98.8% routing accuracy: divid3, 582 held-out queries. 11.8M parameters: post-training, in the browser. 1.7B parameters: genaro, on the phone. 0 servers: every model runs on the device.">
-  </picture>
-</p>
-
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/section-on-device-dark.svg">
