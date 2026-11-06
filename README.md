@@ -1,5 +1,5 @@
 <p align="center">
-  I build small models that run on your device, games with endless procedurally generated levels, and software that collects zero data.
+  I build small models that run on your device, games with endless procedurally generated levels, software that collects zero data, and <a href="https://github.com/bradflaugher?tab=repositories">more</a>.
 </p>
 
 ## On device
@@ -115,7 +115,3 @@
     </td>
   </tr>
 </table>
-
-<p align="center">
-  And more in <a href="https://github.com/bradflaugher?tab=repositories">my repositories</a>.
-</p>
