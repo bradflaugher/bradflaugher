@@ -1,16 +1,11 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-    <img src="assets/header-light.svg" width="100%" alt="Brad Flaugher. Small models on the device. Software for small machines.">
+    <img src="assets/header-light.svg" width="100%" alt="Brad Flaugher">
   </picture>
 </p>
 
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/section-on-device-dark.svg">
-    <img src="assets/section-on-device-light.svg" width="100%" alt="01 On device">
-  </picture>
-</p>
+## On device
 
 <p align="center">
   <a href="https://divid3.com">
@@ -50,12 +45,7 @@
   llama.cpp, on the device.
 </p>
 
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/section-game-boy-dark.svg">
-    <img src="assets/section-game-boy-light.svg" width="100%" alt="02 Game Boy">
-  </picture>
-</p>
+## Game Boy
 
 <table>
   <tr>
@@ -92,12 +82,7 @@
   </tr>
 </table>
 
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/section-android-dark.svg">
-    <img src="assets/section-android-light.svg" width="100%" alt="03 Android">
-  </picture>
-</p>
+## Android
 
 <p align="center">
   <a href="https://github.com/bradflaugher/bf-12c">
@@ -139,12 +124,7 @@
   <a href="https://play.google.com/store/apps/details?id=com.bradflaugher.blauncher">Google Play</a>
 </p>
 
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/section-book-dark.svg">
-    <img src="assets/section-book-light.svg" width="100%" alt="04 Book">
-  </picture>
-</p>
+## Book
 
 <p align="center">
   <a href="https://aiharmony.info">
