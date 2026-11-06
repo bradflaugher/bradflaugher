@@ -69,11 +69,10 @@ def svg(w, h, title, body):
 
 
 def header(t):
-    W, H = 1200, 300
+    W, H = 1200, 220
     name = "Brad Flaugher"
-    nx, ny, ns = 64, 168, 104
+    nx, ny, ns = 64, 157, 128
     nw = measure(name, "display", ns, -0.025)
-    tag = "SMALL MODELS ON THE DEVICE  /  SOFTWARE FOR SMALL MACHINES"
     body = f'''
 <defs>
   <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -104,36 +103,17 @@ def header(t):
 </g>
 <rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="14" fill="none" stroke="{t['line']}"/>
 {P(text_path(name, "display", ns, nx, ny, -0.025), t['fg'])}
-<rect x="{nx + nw + 14:.1f}" y="{ny - 76}" width="38" height="76" fill="{t['accent']}">
+<rect x="{nx + nw + 16:.1f}" y="{ny - 93}" width="46" height="93" fill="{t['accent']}">
   <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1.1s" repeatCount="indefinite"/>
 </rect>
-{P(text_path(tag, "mono-med", 15, nx + 4, 226, 0.08), t['muted'])}
 '''
-    return svg(W, H, "Brad Flaugher. Small models on the device. Software for small machines.", body)
-
-
-SECTIONS = ["ON DEVICE", "GAME BOY", "ANDROID", "BOOK"]
-
-
-def section(t, i, label):
-    W, H = 1200, 40
-    num = f"{i:02d}"
-    x = 2
-    body = P(text_path(num, "mono-bold", 15, x, 26, 0.1), t['accent'])
-    lx = x + measure(num, "mono-bold", 15, 0.1) + 18
-    body += P(text_path(label, "mono-bold", 15, lx, 26, 0.16), t['fg'])
-    ex = lx + measure(label, "mono-bold", 15, 0.16) + 22
-    body += f'<line x1="{ex:.1f}" y1="21" x2="{W-2}" y2="21" stroke="{t["faint"]}"/>'
-    return svg(W, H, f"{num} {label.title()}", body)
+    return svg(W, H, "Brad Flaugher", body)
 
 
 def main():
     OUT.mkdir(exist_ok=True)
     for theme, t in THEMES.items():
         (OUT / f"header-{theme}.svg").write_text(header(t))
-        for i, s in enumerate(SECTIONS, 1):
-            slug = s.lower().replace(" ", "-")
-            (OUT / f"section-{slug}-{theme}.svg").write_text(section(t, i, s))
     print("wrote", sorted(p.name for p in OUT.glob("*.svg")))
 
 
