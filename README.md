@@ -30,8 +30,6 @@
   <a href="https://github.com/bradflaugher/divid3"><b>divid3</b></a>
   embeds the query in the browser and picks the search engine.
   <a href="https://divid3.com">divid3.com</a>
-  <br>
-  <sub><code>all-MiniLM-L6-v2</code> · 22 MB · WASM · no server</sub>
 </p>
 
 <p align="center">
@@ -42,19 +40,17 @@
   <a href="https://github.com/bradflaugher/post-training"><b>post-training</b></a>
   is a word game run by an 11.8M model in the browser.
   <a href="https://post-training.win">post-training.win</a>
-  <br>
-  <sub><code>albert-base-v2</code> · fp16 ONNX · 22 MB · WASM · no server</sub>
 </p>
 
 <p align="center">
   <a href="https://github.com/bradflaugher/PokerSI">
-    <img src="https://raw.githubusercontent.com/bradflaugher/PokerSI/main/docs/screenshots/table-holdem.png" width="300" alt="Texas Hold'em. The other seats are a model running on the phone.">
+    <img src="assets/pokersi.webp" width="100%" alt="PokerSI: the title screen, a Texas Hold'em hand against model opponents, a full house at showdown, and the Model Bay with Genaro Poker 0.6B loaded on the phone.">
   </a>
   <br>
   <a href="https://github.com/bradflaugher/PokerSI"><b>PokerSI</b></a>
   plays the hand on the phone.
-  <a href="https://github.com/bradflaugher/genaro-poker"><b>genaro</b></a>
-  is the model in the other seats: Qwen3
+  <a href="https://github.com/bradflaugher/genaro-poker"><b>genaro</b></a>,
+  my fine-tune, is the model in the other seats:
   <a href="https://huggingface.co/predbrad/Genaro-poker">0.6B</a>
   and
   <a href="https://huggingface.co/predbrad/Genaro-poker-1.7B">1.7B</a>,
