@@ -111,6 +111,4 @@
   </a>
   <br>
   <a href="https://github.com/bradflaugher/AI-Harmony-Book"><b>AI Harmony</b></a>
-  ·
-  <a href="https://aiharmony.info">aiharmony.info</a>
 </p>
