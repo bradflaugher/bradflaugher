@@ -28,6 +28,16 @@
 </p>
 
 <p align="center">
+  <a href="https://bradflaugher.github.io/life-of-golf/">
+    <img src="https://raw.githubusercontent.com/bradflaugher/life-of-golf/main/docs/gameplay.png" width="100%" alt="Life of Golf: an infinite isometric 3D golf puzzle card game with terraced mountain peaks, portals, springs, ice, sand bunkers, and CaddieNet on-device Edge AI.">
+  </a>
+  <br>
+  <a href="https://github.com/bradflaugher/life-of-golf"><b>life-of-golf</b></a>
+  is an infinite isometric golf puzzle card game with an on-device neural caddie in the browser.
+  <a href="https://bradflaugher.github.io/life-of-golf/">Play</a>
+</p>
+
+<p align="center">
   <a href="https://github.com/bradflaugher/PokerSI">
     <img src="assets/pokersi.webp" width="100%" alt="PokerSI: the title screen, a Texas Hold'em hand against model opponents, a full house at showdown, and the Model Bay with Genaro Poker 0.6B loaded on the phone.">
   </a>
