@@ -65,6 +65,26 @@
 ## Games
 
 <p align="center">
+  <a href="https://pippippow.win">
+    <img src="https://raw.githubusercontent.com/bradflaugher/pip-pip-pow/main/docs/gameplay.gif" width="100%" alt="Pip Pip Pow! gameplay: dragging dominoes onto colored rule zones that turn green as each sum and inequality is satisfied, finishing with a POW! celebration.">
+  </a>
+  <br>
+  <a href="https://github.com/bradflaugher/pip-pip-pow"><b>pip-pip-pow</b></a>
+  is an endless domino logic puzzle game with daily challenges and uniquely solvable boards generated in the browser.
+  <a href="https://pippippow.win">pippippow.win</a>
+</p>
+
+<p align="center">
+  <a href="https://boxtickerchess.win">
+    <img src="https://raw.githubusercontent.com/bradflaugher/box-ticker-chess/main/docs/gameplay.gif" width="100%" alt="Box-Ticker Chess gameplay: Form 3-C Three-Check chess where each check ticks one of three red boxes until the third check slams the THREE CHECKS stamp. Also includes King of the Hill mode and an on-device computer opponent.">
+  </a>
+  <br>
+  <a href="https://github.com/bradflaugher/box-ticker-chess"><b>box-ticker-chess</b></a>
+  is Three-Check and King of the Hill chess with an on-device engine, pass-and-play, and peer-to-peer online invites.
+  <a href="https://boxtickerchess.win">boxtickerchess.win</a>
+</p>
+
+<p align="center">
   <a href="https://github.com/bradflaugher/bout-that-action">
     <img src="assets/android-bout-that-action.webp" width="100%" alt="'Bout That Action: drop in from the roof and take the tower down floor by floor. Sneak up, hide in a box, learn it on the roof, all the way to hell.">
   </a>
