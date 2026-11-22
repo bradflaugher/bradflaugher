@@ -65,6 +65,16 @@
 ## Games
 
 <p align="center">
+  <a href="https://open-world.win">
+    <img src="https://raw.githubusercontent.com/bradflaugher/open-world-web/main/docs/gameplay.gif" width="100%" alt="Open World (Web) gameplay: 1:1 Game Boy Color pixel art wandering along the coast under a 360-degree horizon compass, burning brambles at dusk, and exploring by lantern glow at night.">
+  </a>
+  <br>
+  <a href="https://github.com/bradflaugher/open-world-web"><b>open-world-web</b></a>
+  is a mobile &amp; browser port of <a href="https://github.com/bradflaugher/open-world"><b>open-world</b></a> with 1:1 Game Boy Color art, kid-friendly touch controls, and generative ambient audio.
+  <a href="https://open-world.win">open-world.win</a>
+</p>
+
+<p align="center">
   <a href="https://pippippow.win">
     <img src="https://raw.githubusercontent.com/bradflaugher/pip-pip-pow/main/docs/gameplay.gif" width="100%" alt="Pip Pip Pow! gameplay: dragging dominoes onto colored rule zones that turn green as each sum and inequality is satisfied, finishing with a POW! celebration.">
   </a>
