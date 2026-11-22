@@ -29,7 +29,7 @@
 
 <p align="center">
   <a href="https://bradflaugher.github.io/life-of-golf/">
-    <img src="https://raw.githubusercontent.com/bradflaugher/life-of-golf/main/docs/gameplay.png" width="100%" alt="Life of Golf: an infinite isometric 3D golf puzzle card game with terraced mountain peaks, portals, springs, ice, sand bunkers, and CaddieNet on-device Edge AI.">
+    <img src="https://raw.githubusercontent.com/bradflaugher/life-of-golf/main/docs/gameplay.gif" width="100%" alt="Life of Golf gameplay: an isometric 3D golf hole floating over a calm ivory backdrop, playing through a 4-stroke Championship hole with shot cards and an on-device neural caddie to sink Par.">
   </a>
   <br>
   <a href="https://github.com/bradflaugher/life-of-golf"><b>life-of-golf</b></a>
