@@ -66,11 +66,11 @@
 
 <p align="center">
   <a href="https://sneakysneaky.win">
-    <img src="https://raw.githubusercontent.com/bradflaugher/sneaky-sneaky/main/docs/gameplay.gif" width="100%" alt="Sneaky Sneaky gameplay: an all-black phantom thief sneaking through comic-book HD-2D superyachts, midnight museums, and secret science labs with Ben-Day halftone lighting, crouching behind cover, knocking to distract guards, and stealing procedurally generated heist targets.">
+    <img src="https://raw.githubusercontent.com/bradflaugher/sneaky-sneaky/main/docs/gameplay.gif" width="100%" alt="Sneaky Sneaky gameplay: an anonymous all-black agent sneaking through HD-2D comic-book superyachts, midnight museums, and secret science labs with Ben-Day halftone lighting, brushed-steel HVAC ductwork, crouching behind cover, knocking to distract guards, and completing procedurally generated stealth missions.">
   </a>
   <br>
   <a href="https://github.com/bradflaugher/sneaky-sneaky"><b>sneaky-sneaky</b></a>
-  is a weaponless HD-2D comic-book stealth puzzle game with endless guaranteed-solvable rooms, procedural heist targets, and desktop + phone controls.
+  is a weaponless HD-2D comic-book stealth puzzle game with endless guaranteed-solvable rooms, visible HVAC ductwork, varied espionage missions, and desktop + phone controls.
   <a href="https://sneakysneaky.win">sneakysneaky.win</a>
 </p>
 
