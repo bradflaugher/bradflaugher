@@ -65,6 +65,16 @@
 ## Games
 
 <p align="center">
+  <a href="https://sneakysneaky.win">
+    <img src="https://raw.githubusercontent.com/bradflaugher/sneaky-sneaky/main/docs/gameplay.gif" width="100%" alt="Sneaky Sneaky gameplay: an all-black phantom thief sneaking through comic-book HD-2D superyachts, midnight museums, and secret science labs with Ben-Day halftone lighting, crouching behind cover, knocking to distract guards, and stealing procedurally generated heist targets.">
+  </a>
+  <br>
+  <a href="https://github.com/bradflaugher/sneaky-sneaky"><b>sneaky-sneaky</b></a>
+  is a weaponless HD-2D comic-book stealth puzzle game with endless guaranteed-solvable rooms, procedural heist targets, and desktop + phone controls.
+  <a href="https://sneakysneaky.win">sneakysneaky.win</a>
+</p>
+
+<p align="center">
   <a href="https://open-world.win">
     <img src="https://raw.githubusercontent.com/bradflaugher/open-world-web/main/docs/gameplay.gif" width="100%" alt="Open World (Web) gameplay: 1:1 Game Boy Color pixel art wandering along the coast under a 360-degree horizon compass, burning brambles at dusk, and exploring by lantern glow at night.">
   </a>
